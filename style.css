@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Chivo+Mono&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
 html {
   font-size: 62.5%;
   scroll-behavior: smooth;
@@ -21,6 +22,12 @@ body {
     background-size: cover;
     background-position: center;
 } */
+.header-para{
+    font-size: 20px;
+    margin: 12px 82px;
+    color: #ff004f;
+    font-family: 'Playfair Display', serif;
+}
 .main-image {
   position: absolute;
   right: 2rem;
