@@ -181,6 +181,11 @@ nav ul li a:hover::after {
 }
 .tab-contents.active-tab {
   display: block;
+  
+}
+.skill-tab{
+  display: flex;
+  background: #000;
 }
 /* -----------------------------------------portfolio------------------------------------- */
 #portfolio {
@@ -203,6 +208,7 @@ nav ul li a:hover::after {
 }
 .work img {
   width: 100%;
+  
   border-radius: 10px;
   display: block;
   transition: transform(0.5s);
@@ -248,7 +254,7 @@ nav ul li a:hover::after {
   height: 100%;
 }
 .btn {
-  display: block;
+  /* display: block; */
   margin: 50px auto;
   width: fit-content;
   border: 1px solid #ff004f;
@@ -297,6 +303,7 @@ nav ul li a:hover::after {
 .btn.btn2 {
   display: inline-block;
   background: #ff004f;
+  /* color: black; */
 }
 .contact-right form {
   width: 100%;
@@ -350,11 +357,11 @@ nav .fa-solid {
     margin-left: -17px;
     width: 121%;
   }
-  .header-para{
-    margin: 12px 15px;
-  }
   .header-text h1 {
     font-size: 30px;
+  }
+  .header-para{
+    margin: 12px 15px;
   }
   nav .fa-solid {
     display: block;
@@ -430,4 +437,17 @@ nav .fa-solid {
   .contact-right{
     padding-right: -6rem;
   }
+}
+
+#cal{
+  display: none;
+}
+
+#btn1{
+  display: inline-block;
+  background: #ff004f;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  cursor: pointer;
 }
