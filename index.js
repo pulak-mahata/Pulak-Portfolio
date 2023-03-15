@@ -21,3 +21,23 @@ function openmenu(){
 function closemenu(){
     sidem.style.right = "-200px";
 }
+
+function fun1()
+
+{   
+    console.log("kjbc");
+
+    var more = document.getElementById("cal");
+    var button = document.getElementById("btn1");
+    
+    if(more.style.display === "none")
+    {
+        more.style.display = "inline";
+        button.innerHTML = "Show Less";
+    }
+    else{
+        more.style.display = "none";
+        button.innerHTML = "See More";
+    }
+    
+}
