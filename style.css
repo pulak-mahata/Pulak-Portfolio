@@ -451,3 +451,9 @@ nav .fa-solid {
   display: flex;
   cursor: pointer;
 }
+
+/* skill image */
+
+.skill-img{
+  width: 6%;
+}
