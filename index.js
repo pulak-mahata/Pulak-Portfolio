@@ -25,7 +25,7 @@ function closemenu(){
 function fun1()
 
 {   
-    console.log("kjbc");
+    // console.log("kjbc");
 
     var more = document.getElementById("cal");
     var button = document.getElementById("btn1");
