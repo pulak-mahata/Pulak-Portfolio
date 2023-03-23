@@ -39,5 +39,18 @@ function fun1()
         more.style.display = "none";
         button.innerHTML = "See More";
     }
+
+    var toDo = document.getElementById("toDo");
+    // var button = document.getElementById("btn1");
+    
+    if(toDo.style.display === "none")
+    {
+        toDo.style.display = "inline-block";
+        button.innerHTML = "Show Less";
+    }
+    else{
+        toDo.style.display = "none";
+        button.innerHTML = "See More";
+    }
     
 }
