@@ -84,26 +84,26 @@ nav ul li a:hover::after {
   /* margin-top: -36rem; */
 }
 .header-text h1 span {
-  /* color: #ff004f; */
+  color: #ff004f;
   /* position: absolute; */
   /* top: 50%;
   left: 50%; */
-  transform: translate(-50%, -50%);
+  /* transform: translate(-50%, -50%); */
   /* -webkit-text-stroke: 1px #fff; */
-  color: transparent;
+  /* color: transparent;
   background-image: linear-gradient(#ff004f, #ff004f);
   background-repeat: no-repeat;
   -webkit-background-clip: text;
   background-position: -500px 0;
-  animation: backcolor 4s linear infinite alternate;
+  animation: backcolor 4s linear infinite alternate; */
 
 }
-@keyframes backcolor{
+/* @keyframes backcolor{
 
   100%{
     background-position: 0 0;
-  }
-}
+  } */
+
 /* ---------------------About----------- */
 
 #about {
@@ -186,6 +186,9 @@ nav ul li a:hover::after {
 .skill-tab{
   display: flex;
   background: #000;
+}
+.skill-item-list{
+  font-size: 17px;
 }
 /* -----------------------------------------portfolio------------------------------------- */
 #portfolio {
@@ -440,6 +443,7 @@ nav .fa-solid {
     padding-right: -6rem;
   }
 }
+
 
 #cal{
   display: none;
